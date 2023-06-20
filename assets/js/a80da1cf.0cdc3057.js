@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkzop_hooks_docs=self.webpackChunkzop_hooks_docs||[]).push([[205],{4863:s=>{s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/blog/tags/docusaurus"}')}}]);
