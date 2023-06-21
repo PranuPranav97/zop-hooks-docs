@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pranupranav97.github.io/zop-hooks-docs/blog</id>
-    <title>Zop Hooks Documentation Blog</title>
+    <title>Zop Hooks Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pranupranav97.github.io/zop-hooks-docs/blog"/>
-    <subtitle>Zop Hooks Documentation Blog</subtitle>
-    <icon>https://pranupranav97.github.io/zop-hooks-docs/img/favicon.ico</icon>
+    <subtitle>Zop Hooks Blog</subtitle>
+    <icon>https://pranupranav97.github.io/zop-hooks-docs/img/hook.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
