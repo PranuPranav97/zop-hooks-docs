@@ -10,9 +10,9 @@ module.exports = {
   baseUrl: "/zop-hooks-docs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  favicon: "img/hook.png",
+  organizationName: "pranupranav97", // Usually your GitHub org/user name.
+  projectName: "zop-hooks-docs", // Usually your repo name.
 
   presets: [
     [
@@ -44,7 +44,7 @@ module.exports = {
         title: "Zop Hooks",
         logo: {
           alt: "Zop Hooks",
-          src: "img/Hook.png",
+          src: "img/hook.png",
         },
         items: [
           {
