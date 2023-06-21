@@ -51,9 +51,9 @@ module.exports = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Docs",
           },
-          { to: "/blog", label: "blog", position: "left" },
+          // { to: "/blog", label: "blog", position: "left" },
           {
             href: "https://github.com/PranuPranav97/zop-hooks-docs",
             label: "GitHub",

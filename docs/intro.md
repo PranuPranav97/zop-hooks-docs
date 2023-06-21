@@ -2,34 +2,26 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**Zop-Hooks** is a collection of production ready **React** hooks package that you can use in your React, Next.js, React+Vite Apps.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Get started by **Installing Zop-Hooks** package.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
+### Using NPM
 
 ```shell
-npx @docusaurus/init@latest init my-website classic
+npm install zop-hooks
 ```
 
-## Start your site
-
-Run the development server:
+### Using Yarn
 
 ```shell
-cd my-website
-
-npx docusaurus start
+yarn add zop-hooks
 ```
 
-Your site starts at `http://localhost:3000`.
+## Import the Hooks
 
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+There are various Hooks provided by zop-hooks find them and use them by importing.
