@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # useTimer
@@ -10,7 +10,7 @@ The useTimer hook is a custom React hook that provides a timer functionality. It
 ### 1.Import the Hook
 
 ```typescript
-import useTimer from "<path-to-useTimer>";
+import useTimer from "zop-hooks";
 ```
 
 ### 2.Initialize the timer by calling the useTimer hook:
