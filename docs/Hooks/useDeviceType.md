@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+custom_edit_url: https://github.com/PranuPranav97/zop-hooks-docs
 ---
 
 # useDeviceType
