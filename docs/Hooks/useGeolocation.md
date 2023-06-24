@@ -31,6 +31,8 @@ import { useGeolocation, Geolocation } from "zop-hooks";
 Use the `useGeolocation` hook in your component to access the geolocation:
 
 ```typescript
+import { useGeolocation, Geolocation } from "zop-hooks";
+
 function MyComponent() {
   // Call the useGeolocation hook to get the current geolocation
   const geolocation: Geolocation | undefined = useGeolocation();

@@ -73,7 +73,7 @@ Here's a complete example of using the useTimer hook in a React component:
 
 ```typescript
 import React from "react";
-import useTimer from "<path-to-useTimer>";
+import useTimer from "zop-hooks";
 
 const TimerComponent = () => {
   const timer = useTimer();
