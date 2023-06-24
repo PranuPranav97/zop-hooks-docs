@@ -18,6 +18,8 @@ import { useClipboard } from "zop-hooks";
 ### Implement the hook in your functional component:
 
 ```typescript
+import { useClipboard } from "zop-hooks";
+
 function MyComponent() {
   const clipboardContent = useClipboard();
 

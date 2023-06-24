@@ -18,6 +18,8 @@ import { useDeviceType, DeviceType } from "zop-hooks";
 Implement the hook in your functional component:
 
 ```typescript
+import { useDeviceType, DeviceType } from "zop-hooks";
+
 function MyComponent() {
   const deviceType = useDeviceType();
 
