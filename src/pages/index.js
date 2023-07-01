@@ -16,27 +16,21 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <a
             className="button button--secondary button--lg"
-            href="https://github.com/PranuPranav97/zop-hooks"
-          >
+            href="https://github.com/PranuPranav97/zop-hooks">
             <img src="img/github-octopus.svg" height={20} />
           </a>{" "}
           &nbsp;&nbsp;
           <a
             className="button button--secondary button--lg"
-            href="https://www.npmjs.com/package/zop-hooks"
-          >
+            href="https://www.npmjs.com/package/zop-hooks">
             &nbsp;&nbsp;
             <img src="img/npm.svg" height={20} />
           </a>
         </div>
         <br />
         <div>
-          Zophooks is a powerful automation framework designed to streamline
-          your workflows and simplify complex tasks. With its intuitive
-          interface and robust features, Zophooks empowers users to automate
-          processes effortlessly, saving time and boosting productivity. Whether
-          you're a seasoned developer or a beginner, Zophooks is built to be
-          easy to use
+          Zophooks is a powerful React Hooks Library to make your React
+          Development Journey easy.
         </div>
       </div>
     </header>
@@ -48,8 +42,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
-    >
+      description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
