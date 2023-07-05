@@ -11,7 +11,7 @@ The useTimer hook is a custom React hook that provides a timer functionality. It
 ### 1.Import the Hook
 
 ```typescript
-import useTimer from "zop-hooks";
+import { useTimer } from "zop-hooks";
 ```
 
 ### 2.Initialize the timer by calling the useTimer hook:
