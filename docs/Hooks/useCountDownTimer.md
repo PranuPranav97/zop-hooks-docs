@@ -13,7 +13,7 @@ To use the `useCountdownTimer` hook, follow these steps:
 Import the hook:
 
 ```typescript
-import { useCountdownTimer } from "./useCountdownTimer";
+import { useCountdownTimer } from "zop-hooks";
 ```
 
 Call the `useCountdownTimer` hook within your functional component, passing the `duration` prop as an object:
