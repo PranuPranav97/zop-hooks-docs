@@ -33,7 +33,7 @@ Here's an example of how you can use the `useCountdownTimer` hook in a React com
 
 ```typescript
 import React from "react";
-import { useCountdownTimer } from "./useCountdownTimer";
+import { useCountdownTimer } from "zop-hooks";
 
 const CountdownTimerComponent = () => {
   const { remainingTime, formattedTime } = useCountdownTimer({ duration: 120 });
