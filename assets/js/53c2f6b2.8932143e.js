@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkzop_hooks_docs=self.webpackChunkzop_hooks_docs||[]).push([[7157],{7487:o=>{o.exports=JSON.parse('{"allTagsPath":"/zop-hooks-docs/blog/tags","slug":"/zop-hooks-docs/blog/tags/facebook","name":"facebook","count":1,"permalink":"/zop-hooks-docs/blog/tags/facebook"}')}}]);
