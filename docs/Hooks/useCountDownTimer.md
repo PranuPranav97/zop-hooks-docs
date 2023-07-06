@@ -19,13 +19,16 @@ import { useCountdownTimer } from "zop-hooks";
 Call the `useCountdownTimer` hook within your functional component, passing the `duration` prop as an object:
 
 ```typescript
-const { remainingTime, formattedTime } = useCountdownTimer({ duration: 60 });
+const { remainingTime, formattedTime, restartTimer } = useCountdownTimer({
+  duration: 60,
+});
 ```
 
-You can access the `remainingTime` and `formattedTime` variables returned by the hook:
+You can access the `remainingTime`, `formattedTime` and `restartTimer` variables returned by the hook:
 
 - `remainingTime` (number): The remaining time in seconds.
 - `formattedTime` (string): The remaining time formatted as "HH:MM:SS".
+- `restartTimer ` (function): A function to restart the timer. It resets the remaining time to the initial duration specified.
 
 ### Example
 
@@ -35,18 +38,25 @@ Here's an example of how you can use the `useCountdownTimer` hook in a React com
 import React from "react";
 import { useCountdownTimer } from "zop-hooks";
 
-const CountdownTimerComponent = () => {
-  const { remainingTime, formattedTime } = useCountdownTimer({ duration: 120 });
+const CountDownTimer = () => {
+  const { remainingTime, formattedTime, restartTimer } = useCountdownTimer({
+    duration: 60, // Initial duration in seconds
+    dependencies: [], // Optional array of dependencies
+  });
+
+  const handleRestartTimer = () => {
+    restartTimer();
+  };
 
   return (
     <div>
-      <p>Remaining Time: {formattedTime}</p>
-      <p>Seconds Left: {remainingTime}</p>
+      <div>Remaining Time: {formattedTime}</div>
+      <button onClick={handleRestartTimer}>Restart Timer</button>
     </div>
   );
 };
 
-export default CountdownTimerComponent;
+export default CountDownTimer;
 ```
 
 In the example above, the `CountdownTimer` component uses the `useCountdownTimer` hook to create a countdown timer with a duration of 120 seconds. The remaining time and formatted time are displayed in the component.
